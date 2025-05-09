@@ -1,0 +1,143 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f58c29a2-120e-456c-93a4-5a2527367c1f")
+	(paper "A4")
+	(title_block
+		(date "2025-05-08")
+	)
+	(lib_symbols)
+	(sheet
+		(at 82.55 67.31)
+		(size 40.64 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006790c616")
+		(property "Sheetname" "Interfaces"
+			(at 82.55 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interfaces.kicad_sch"
+			(at 82.55 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nRF9151_Linear"
+				(path "/f58c29a2-120e-456c-93a4-5a2527367c1f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 67.31)
+		(size 41.91 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006791151d")
+		(property "Sheetname" "nRF9151_MCU"
+			(at 180.34 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nRF9151_MCU.kicad_sch"
+			(at 180.34 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nRF9151_Linear"
+				(path "/f58c29a2-120e-456c-93a4-5a2527367c1f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 67.31)
+		(size 41.91 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000067911d9a")
+		(property "Sheetname" "Power"
+			(at 130.81 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 130.81 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nRF9151_Linear"
+				(path "/f58c29a2-120e-456c-93a4-5a2527367c1f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
