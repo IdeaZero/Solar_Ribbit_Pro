@@ -1,0 +1,17 @@
+{
+  "toolchainPath": "/home/parth/ncs/toolchains/b81a7cd864",
+  "sdkPath": "/home/parth/ncs/v2.8.0",
+  "board": "nrf9151dk/nrf9151/ns",
+  "boardDir": "/home/parth/ncs/v2.8.0/zephyr/boards/nordic/nrf9151dk",
+  "boardDirs": [
+    "/home/parth/ncs/v2.8.0/zephyr/boards/nordic/nrf9151dk"
+  ],
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [],
+  "buildDirectory": "build",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": []
+}

@@ -1,0 +1,2 @@
+"nrf":"/home/parth/ncs/v2.8.0/nrf":"/home/parth/ncs/v2.8.0/nrf/sysbuild"
+"mcuboot":"/home/parth/ncs/v2.8.0/bootloader/mcuboot":"/home/parth/ncs/v2.8.0/bootloader/mcuboot/boot/zephyr/sysbuild"

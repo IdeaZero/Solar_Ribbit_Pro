@@ -1,0 +1,2 @@
+osource "/home/parth/Desktop/nrf9151/led_strip/boards/shields/*/Kconfig.shield"
+osource "/home/parth/ncs/v2.8.0/nrf/boards/shields/*/Kconfig.shield"

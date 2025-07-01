@@ -1,0 +1,19 @@
+cmake:
+  application:
+    source-dir: /home/parth/ncs/v2.8.0/zephyr/share/sysbuild
+  board:
+    name: nrf9151dk
+    qualifiers: nrf9151/ns
+    revision: 
+  kconfig:
+    files:
+     - /home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/empty.conf
+     - /home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/empty.conf
+    user-files:
+     - /home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/empty.conf
+  sysbuild: true
+version: 0.1.0
+west:
+  command: /home/parth/ncs/toolchains/b81a7cd864/usr/local/bin/west build --build-dir /home/parth/Desktop/nrf9151/led_strip/build /home/parth/Desktop/nrf9151/led_strip --pristine --board nrf9151dk/nrf9151/ns -- -DNCS_TOOLCHAIN_VERSION=NONE -DBOARD_ROOT=/home/parth/Desktop/nrf9151/led_strip
+  topdir: /home/parth/ncs/v2.8.0
+  version: 1.2.0

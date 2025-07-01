@@ -1,0 +1,13 @@
+# Target labels
+ led_strip
+# Source files and their labels
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/CMakeFiles/led_strip
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/CMakeFiles/led_strip.rule
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/CMakeFiles/led_strip-complete.rule
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-build.rule
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-configure.rule
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-download.rule
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-install.rule
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-mkdir.rule
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-patch.rule
+/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-update.rule

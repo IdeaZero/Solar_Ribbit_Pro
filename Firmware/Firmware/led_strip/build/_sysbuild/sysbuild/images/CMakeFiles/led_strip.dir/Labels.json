@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/CMakeFiles/led_strip"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/CMakeFiles/led_strip.rule"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/CMakeFiles/led_strip-complete.rule"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-build.rule"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-configure.rule"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-download.rule"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-install.rule"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-mkdir.rule"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-patch.rule"
+		},
+		{
+			"file" : "/home/parth/Desktop/nrf9151/led_strip/build/_sysbuild/sysbuild/images/led_strip-prefix/src/led_strip-stamp/led_strip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"led_strip"
+		],
+		"name" : "led_strip"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "log.h": "c",
+        "kernel.h": "c",
+        "at_monitor.h": "c"
+    }
+}

@@ -1,0 +1,52 @@
+cmake:
+  application:
+    configuration-dir: /home/parth/Desktop/nrf9151/led_strip
+    source-dir: /home/parth/Desktop/nrf9151/led_strip
+  board:
+    name: nrf9151dk
+    qualifiers: nrf9151/ns
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - /home/parth/ncs/v2.8.0/nrf/dts/bindings
+     - /home/parth/ncs/v2.8.0/zephyr/boards/nordic/nrf9151dk/dts/bindings
+     - /home/parth/ncs/v2.8.0/zephyr/dts/bindings
+    files:
+     - /home/parth/ncs/v2.8.0/zephyr/boards/nordic/nrf9151dk/nrf9151dk_nrf9151_ns.dts
+     - /home/parth/Desktop/nrf9151/led_strip/boards/nrf9151dk_nrf9151_ns.overlay
+    include-dirs:
+     - /home/parth/ncs/v2.8.0/nrf/include
+     - /home/parth/ncs/v2.8.0/nrf/dts
+     - /home/parth/ncs/v2.8.0/zephyr/boards/nordic/nrf9151dk/dts
+     - /home/parth/ncs/v2.8.0/zephyr/include
+     - /home/parth/ncs/v2.8.0/zephyr/include/zephyr
+     - /home/parth/ncs/v2.8.0/zephyr/dts/common
+     - /home/parth/ncs/v2.8.0/zephyr/dts/x86
+     - /home/parth/ncs/v2.8.0/zephyr/dts/xtensa
+     - /home/parth/ncs/v2.8.0/zephyr/dts/sparc
+     - /home/parth/ncs/v2.8.0/zephyr/dts/riscv
+     - /home/parth/ncs/v2.8.0/zephyr/dts/posix
+     - /home/parth/ncs/v2.8.0/zephyr/dts/nios2
+     - /home/parth/ncs/v2.8.0/zephyr/dts/arm64
+     - /home/parth/ncs/v2.8.0/zephyr/dts/arm
+     - /home/parth/ncs/v2.8.0/zephyr/dts/arc
+     - /home/parth/ncs/v2.8.0/zephyr/dts
+    user-files:
+     - /home/parth/Desktop/nrf9151/led_strip/boards/nrf9151dk_nrf9151_ns.overlay
+  kconfig:
+    files:
+     - /home/parth/ncs/v2.8.0/zephyr/boards/nordic/nrf9151dk/nrf9151dk_nrf9151_ns_defconfig
+     - /home/parth/Desktop/nrf9151/led_strip/prj.conf
+     - /home/parth/Desktop/nrf9151/led_strip/build/led_strip/zephyr/.config.sysbuild
+    user-files:
+     - /home/parth/Desktop/nrf9151/led_strip/prj.conf
+  toolchain:
+    name: zephyr
+    path: /home/parth/ncs/toolchains/b81a7cd864/opt/zephyr-sdk
+  vendor-specific:
+    nordic:
+      svdfile: /home/parth/ncs/v2.8.0/modules/hal/nordic/nrfx/mdk/nrf9120.svd
+  zephyr:
+    version: 3.7.99
+    zephyr-base: /home/parth/ncs/v2.8.0/zephyr
+version: 0.1.0
